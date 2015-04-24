@@ -1,0 +1,21 @@
+{
+  "name": "gulp-mozjpeg",
+  "version": "1.0.0",
+  "description": "mozjpeg plugin for Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=50000 --reporter=spec test/test.js"
+  },
+  "author": "1000ch",
+  "license": "MIT",
+  "dependencies": {
+    "is-jpg": "^1.0.0",
+    "mozjpeg": "^4.0.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "power-assert": "^0.11.0",
+    "vinyl-file": "^1.1.1"
+  }
+}
